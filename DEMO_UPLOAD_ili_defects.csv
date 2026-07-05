@@ -1,0 +1,6 @@
+chainage_km,abs_distance_m,joint_number,feature_type,feature_id,orientation_oclock,wt_mm,axial_length_mm,width_mm,depth_pct_wt,location_int_ext,latitude,longitude,survey_date
+145.2,3264.9999999999864,9000,Metal loss,Corrosion,06:00:00,7.2,40,24.0,8,External,27.3,77.6,2026-07-04
+147.85,5914.999999999992,9001,Metal loss,Corrosion,06:00:00,7.2,150,90.0,30,External,27.3,77.6,2026-07-04
+152.3,10365.00000000001,9002,Metal loss,Corrosion,06:00:00,7.2,450,270.0,62,Internal,27.3,77.6,2026-07-04
+156.75,14814.999999999998,9003,Metal loss,Corrosion,06:00:00,7.2,250,150.0,85,External,27.3,77.6,2026-07-04
+160.1,18164.999999999993,9004,Metal loss,Corrosion,06:00:00,7.2,900,540.0,55,External,27.3,77.6,2026-07-04

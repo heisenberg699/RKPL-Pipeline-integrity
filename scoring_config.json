@@ -1,0 +1,164 @@
+{
+  "pipeline": {
+    "name": "HPCL RKPL Section-2 (IP-Bharatpur to IP-Mathura)",
+    "start_km": 141.935,
+    "end_km": 164.95,
+    "segment_length_km": 0.1,
+    "ili_datum_offset_km": 141.935
+  },
+  "weights": {
+    "ILI": 0.35,
+    "DCVG": 0.2,
+    "CIPL": 0.2,
+    "DCI": 0.1,
+    "CAT": 0.1,
+    "SOIL": 0.05
+  },
+  "severity_labels": {
+    "healthy_min": 80,
+    "watch_min": 50
+  },
+  "compounding": {
+    "threshold_score": 50,
+    "min_surveys": 2,
+    "penalty": 10
+  },
+  "thresholds": {
+    "dcvg_pct_ir": [
+      [
+        0,
+        100
+      ],
+      [
+        15,
+        75
+      ],
+      [
+        35,
+        40
+      ],
+      [
+        70,
+        15
+      ],
+      [
+        100,
+        0
+      ]
+    ],
+    "ili_depth_pct": [
+      [
+        0,
+        100
+      ],
+      [
+        10,
+        90
+      ],
+      [
+        20,
+        75
+      ],
+      [
+        50,
+        35
+      ],
+      [
+        80,
+        10
+      ],
+      [
+        100,
+        0
+      ]
+    ],
+    "ili_erf": [
+      [
+        0.9,
+        90
+      ],
+      [
+        0.95,
+        70
+      ],
+      [
+        1.0,
+        25
+      ],
+      [
+        1.2,
+        0
+      ]
+    ],
+    "cipl_off_protected_window_v": [
+      -1.2,
+      -0.85
+    ],
+    "dci_swing_mv": [
+      [
+        0,
+        100
+      ],
+      [
+        20,
+        70
+      ],
+      [
+        50,
+        35
+      ],
+      [
+        120,
+        0
+      ]
+    ],
+    "cat_attenuation": [
+      [
+        0.05,
+        100
+      ],
+      [
+        0.2,
+        65
+      ],
+      [
+        0.5,
+        35
+      ],
+      [
+        1.5,
+        0
+      ]
+    ],
+    "soil_resistivity_ohm_cm": [
+      [
+        10000,
+        100
+      ],
+      [
+        5000,
+        85
+      ],
+      [
+        2000,
+        65
+      ],
+      [
+        1000,
+        45
+      ],
+      [
+        0,
+        25
+      ]
+    ]
+  },
+  "pipe": {
+    "outside_diameter_mm": 457.2,
+    "grade": "API 5L X65",
+    "smys_mpa": 448.0,
+    "maop_kg_cm2": 94.0,
+    "design_factor": 0.72,
+    "_note": "Calibrated: Original B31G with these values reproduces LIN SCAN psafe exactly. CONFIRM grade & MAOP from pipetally before operational use."
+  }
+}
